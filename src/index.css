@@ -8,6 +8,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: rgb(255, 219, 185);
 }
 
 .container {
@@ -25,6 +26,10 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+}
+
+.h1 {
+  color: rgb(0, 0, 0);
 }
 
 .btn {
@@ -54,15 +59,23 @@ body {
   width: 100%;
 }
 
+.go-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
 .task {
-  background: #f4f4f4;
+  background: #fff2cd;
   margin: 5px;
   padding: 10px 20px;
   cursor: pointer;
+  border: solid black 2px;
 }
 
 .task.reminder {
-  border-left: 5px solid green;
+  border-left: 5px solid rgb(109, 245, 109);
 }
 
 .task h3 {
@@ -105,6 +118,30 @@ body {
   flex: 2;
   height: 20px;
 }
+
+.version {
+  background-color: rgb(109, 201, 170);;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.paragraph {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(109, 201, 170);
+}
+
 
 footer {
   margin-top: 30px;
